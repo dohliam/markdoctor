@@ -36,6 +36,7 @@ tables | _e.g., this one_
 * CSS: [Concise CSS](https://github.com/ConciseCSS/concise.css)
   * Prototyped using [dropin-minimal-css](https://github.com/dohliam/dropin-minimal-css)
 * [AsciiDoc language features as they compare to Markdown](https://asciidoctor.org/docs/user-manual/#compared-to-markdown) on the Asciidoctor site provided a useful reference for this converter
+* [github-corners](https://github.com/tholman/github-corners) by @tholman
 
 ## License
 
