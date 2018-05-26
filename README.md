@@ -1,6 +1,6 @@
 # Markdoctor - A simple online Markdown to Asciidoctor converter
 
-See demo [here](https://dohliam.github.io/md-to-adoc).
+See demo [here](https://dohliam.github.io/markdoctor).
 
 This is a simple online tool to convert Markdown documents into their rough equivalents in [Asciidoctor](https://asciidoctor.org/) syntax. A live preview shows the results of both the rendered source and output side by side so that they can be easily compared.
 
@@ -14,7 +14,7 @@ horizontal rules | `***`, `---`, `___`
 bold text | `**bold**`
 italic text | `_italic_`, `*italic*`
 bold and italic text | `**_bold and italic text_**`
-headings (up to level 6) | `## Heading 2`, `### Heading 3`
+headings (up to level 6) | `## Heading 2`
 images | `![](image.png)`
 image text | `![Image text](image.png)`
 image links | `[![Image text](image.png)](https://www.example.com/)`
