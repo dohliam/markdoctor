@@ -1,5 +1,7 @@
 # Markdoctor - A simple online Markdown to Asciidoctor converter
 
+![](images/logo.svg)
+
 See demo [here](https://dohliam.github.io/markdoctor).
 
 This is a simple online tool to convert Markdown documents into their rough equivalents in [Asciidoctor](https://asciidoctor.org/) syntax. A live preview shows the results of both the rendered source and output side by side so that they can be easily compared.
@@ -37,6 +39,8 @@ tables | _e.g., this one_
   * Prototyped using [dropin-minimal-css](https://github.com/dohliam/dropin-minimal-css)
 * [AsciiDoc language features as they compare to Markdown](https://asciidoctor.org/docs/user-manual/#compared-to-markdown) on the Asciidoctor site provided a useful reference for this converter
 * [github-corners](https://github.com/tholman/github-corners) by @tholman
+* [Asciidoctor logo](https://github.com/asciidoctor/brand)
+* [Markdown logo](https://github.com/dcurtis/markdown-mark)
 
 ## License
 
