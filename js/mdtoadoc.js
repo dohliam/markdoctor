@@ -7,7 +7,7 @@ function convMdAdoc(txt) {
   txt = txt.replace(/^\*([^\s][^\*]+)\*/gm, "_$1_").replace(/\s\*([^\*\s]+)\*/g, " _$1_").replace(/\*\*_/g, "*_").replace(/_\*\*/g, "_*").replace(/^\*\*([^\*]+)\*\*/gm, "*$1*").replace(/\s\*\*([^\*]+)\*\*/g, " *$1*");
 
 // headings
-  txt = txt.replace(/^#\s(.*)$/gm, "= $1\n:doctype: book\n\n= $1").replace(/^#{2}\s/gm, "== ").replace(/^#{3}\s/gm, "=== ").replace(/^#{4}\s/gm, "==== ").replace(/^#{5}\s/gm, "===== ").replace(/^#{6}\s/gm, "====== ");
+  txt = txt.replace(/^#\s(.*)$/gm, "= $1\n:doctype: book\n\n").replace(/^#{2}\s/gm, "== ").replace(/^#{3}\s/gm, "=== ").replace(/^#{4}\s/gm, "==== ").replace(/^#{5}\s/gm, "===== ").replace(/^#{6}\s/gm, "====== ");
 
 // images
   txt = txt.replace(/\[\!\[([^\]]*)\]\(([^\)]+)\)\]\(([^\)]+)\)/g, "image::$2[$1, link=\"$3\"]").replace(/\!\[([^\]]*)\]\(([^\)]+)\)/g, "image::$2[$1]");
