@@ -56,3 +56,9 @@ function adocTohtml() {
   var html = asciidoctor.convert(adocTxt);
   output.innerHTML = html;
 }
+
+function sampleTxt() {
+  txt = "# Title\n\n## Text formatting\n\n### Unordered lists\n\n* Bullet point level 1\n  * Bullet point level 2 number 1\n  * Bullet point level 2 number 2\n* Bullet point level 1 number 2\n* Level 1\n  * Level 2\n    * Level 3\n      * Level 4\n        * Level 5\n\n### Ordered lists\n\n1. Ordered list\n2. Another item\n3. A third item\n  1. A sub-item\n  2. A second sub-item\n4. Continuation of the list\n\n## Formatting\n\nSome **bold** text (**bold text**), some _italic_ text (_italic text_), and **_bold italic text_**\n\n**Bold text** at the beginning of a line\n\n## Links\n\n* [A link with link text](https://example.com)\n* A bare link: https://example.com\n* An image link: ![](image.png \"alt text\")\n\n## Tables\n\nTable Heading 1 | Table Heading 2\n-------------- | --------------\nSome data | Another column of data\nSecond row | And more\n\n## Headings\n\n### Level 2 heading\n\n#### Level 3 heading\n\n##### Level 4 heading\n\n###### Level 5 heading\n\n";
+  var mdText = document.getElementById("mdInput");
+  mdText.value = txt;
+}
